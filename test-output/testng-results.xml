@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-21T08:25:26 IST" name="Suite" finished-at="2024-11-21T08:25:35 IST" duration-ms="8931">
+    <groups>
+      <group name="Smoke">
+        <method signature="LoginTest.validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTest@2bdd8394]" name="validLoginTest" class="testcases.LoginTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-11-21T08:25:26 IST" name="Test" finished-at="2024-11-21T08:25:35 IST" duration-ms="8931">
+      <class name="testcases.LoginTest">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:testcases.LoginTest@2bdd8394]" started-at="2024-11-21T08:25:26 IST" name="setupBrowser" finished-at="2024-11-21T08:25:31 IST" duration-ms="4914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTest@2bdd8394]" started-at="2024-11-21T08:25:32 IST" name="validLoginTest" description="This test will verify valid login scenario" data-provider="login" finished-at="2024-11-21T08:25:35 IST" duration-ms="2867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@email.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@2bdd8394]" started-at="2024-11-21T08:25:35 IST" name="tearDown" finished-at="2024-11-21T08:25:35 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
